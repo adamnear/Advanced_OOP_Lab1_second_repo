@@ -1,4 +1,4 @@
-﻿namespace Module1
+﻿namespace Section4
 {
     internal class Program
     {
