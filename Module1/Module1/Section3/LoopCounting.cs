@@ -10,12 +10,13 @@
                 {
                     Console.WriteLine(i);
                 }
-                for (int i = 0; i >= 1; i--)
+
+                // Combined loop with a conditional
+                for (int i = (x % 2 == 0 ? 1 : 0); (x % 2 == 0 ? i >= 1 : i <= 10); i += (x % 2 == 0 ? -1 : 1))
                 {
                     Console.WriteLine(i);
                 }
             }
-
         }
     }
 }
